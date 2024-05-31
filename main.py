@@ -37,6 +37,14 @@ def main():
 def login():
     return render_template('index_login.html')
 
+@app.route('/register')
+def register():
+    return render_template('index_register.html')
+ 
+@app.route('/report')
+def report():
+    return render_template('index_pdf.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
