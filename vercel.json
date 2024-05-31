@@ -1,6 +1,5 @@
 {
    "version": 2,
-   "public": "templates",
    "builds": [
         {"src": "main.py", "use": "@vercel/python"}
     ],
