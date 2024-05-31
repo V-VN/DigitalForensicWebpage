@@ -19,15 +19,15 @@ class UploadFileForm(FlaskForm):
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/home', methods=['GET', 'POST'])
-def home():
-    form = UploadFileForm()
-    if form.validate_on_submit():
-        file = form.file.data
-        file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
-        return "File has been uploaded."    
-    # return render_template('index.html', form=form)
-    # return render_template('index_edit.html', form=form)
-    return render_template('index_2.html', form=form)
+# def home():
+#     form = UploadFileForm()
+#     if form.validate_on_submit():
+#         file = form.file.data
+#         file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
+#         return "File has been uploaded."    
+#     # return render_template('index.html', form=form)
+#     # return render_template('index_edit.html', form=form)
+#     return render_template('index_2.html', form=form)
 
 @app.route('/main')
 def main():
