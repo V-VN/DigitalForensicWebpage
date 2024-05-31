@@ -1,6 +1,6 @@
 {
    "version": 2,
-   "bulids": [
+   "builds": [
         {"src": "main.py", "use": "@vercel/python"}
     ],
     "routes": [
