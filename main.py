@@ -24,6 +24,10 @@ class UploadFileForm(FlaskForm):
 def main():
     return render_template('index.html')
 
+@app.route('/login')
+def login():
+    return render_template('index_login.html')
+
 def home():
     form = UploadFileForm()
     if form.validate_on_submit():
@@ -33,11 +37,6 @@ def home():
     # return render_template('index.html', form=form)
     # return render_template('index_edit.html', form=form)
     return render_template('index_2.html', form=form)
-
-
-@app.route('/login')
-def login():
-    return render_template('index_login.html')
 
 @app.route('/register')
 def register():
