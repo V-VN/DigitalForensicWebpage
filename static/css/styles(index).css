@@ -1,0 +1,314 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, section, footer {
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    height: 100%;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 26px;
+    color: #333; /* Adjust the color as needed */
+    transition: color 0.3s; /* Add transition for a subtle effect */
+}
+
+nav a:hover {
+    /* color: #007BFF; Adjust the hover color as needed */
+    background-color: #ddd;
+    color: #444;
+    transform: scale(1.1); /* Enlarge the box on hover */
+}
+
+
+main {
+    background-color: #f4f4f4;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Additional Styles for Interactive Maps Section */
+#maps {
+    background-color: #fff;
+    padding: 20px;
+}
+/*
+#interactive-map {
+    Add styles for the interactive map container 
+}
+*/
+/* Additional Styles for Real-time Threat Feed Section */
+#threat-feed {
+    background-color: #fff;
+    padding: 20px;
+}
+/* 
+#threat-feed-container {
+    Add styles for the threat feed container
+} */
+
+/* Mobile-friendly styles */
+@media only screen and (max-width: 768px) {
+    /* Add styles for smaller screens */
+}
+#digital-forensics-images {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /*background-image: url('header_background.jpg');  /*Replace 'header_background.jpg' with your actual image file */
+    background-image: url('../images/header_background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 1em;
+}
+
+#intro {
+    margin-bottom: 1em;
+}
+
+.service-tiles, .tool-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.service-tile, .tool-tile {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin: 0.5em;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.complaint-box {
+    background-color: #f8d7da; /* Light red background color */
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid #e73d4a; /* Dark red border color */
+    border-radius: 5px;
+}
+
+.complaint-box label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.complaint-box input, .complaint-box textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ced4da; /* Light gray border color */
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.complaint-box button {
+    background-color: #e73d4a; /* Dark red background color */
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+   
+}
+
+h1 {
+    color: black; /* Change the title color to black */
+    font-size: 3em;
+}
+
+header p {
+    color: black; /* Change the color of the trusted partner text to black */
+    font-size: 1.5em;
+}
+/* Add your CSS styles here */
+/* ... (existing styles) */
+
+
+/* Our Services styles */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-box {
+    flex: 0 0 calc(20% - 20px); /* Adjust width as needed, 48% for two boxes in a row */
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8; /* Box background color */
+    border: 1px solid #ddd; /* Box border */
+    border-radius: 8px; /* Border radius for rounded corners */
+    transition: transform 0.3s; /* Add transition for a subtle effect */
+}
+
+.service-box:hover {
+    background-color: #444;
+    color:#ddd;
+    transform: scale(1.3); /* Enlarge the box on hover */
+}
+
+/* Tools styles */
+.tool-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tool-box {
+    flex: 0 0 calc(20% - 20px); /* Adjust width as needed, 48% for two boxes in a row */
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8; /* Box background color */
+    border: 1px solid #ddd; /* Box border */
+    border-radius: 8px; /* Border radius for rounded corners */
+    transition: transform 0.3s; /* Add transition for a subtle effect */
+}
+
+.tool-box:hover {
+    background-color: #444;
+    color:#ddd;
+    transform: scale(1.3); /* Enlarge the box on hover */
+}
+
+/* Introduction section styles */
+#intro {
+    text-align: left; /* Align text to the left */
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+#intro p {
+    margin-bottom: 15px; /* Add some spacing between paragraphs */
+}
+
+#intro h3 {
+    color: #444; /* Highlight subheadings with a specific color */
+}
+
+#intro ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+#intro li {
+    position: relative;
+    padding-left: 20px; /* Add left padding for bullet points */
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+#intro li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: #444; /* Set bullet point color */
+    font-size: 20px; /* Adjust bullet point size */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Welcome section styles */
+#welcome {
+    text-align: center; /* Center-align text */
+    background-color: #ddd; /* Add a background color to the welcome section */
+    color: #444; /* Set text color to white */
+    padding: 60px; /* Add padding for spacing */
+}
+
+#welcome h2 {
+    margin-bottom: 20px; /* Add spacing below the heading */
+}

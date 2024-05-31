@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../static/css/styles(login_register).css">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/styles(login_register).css') }}"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wua6ZSUrWd0hZi5_kzWVQAiTfJ84nyHAg46ykMS0j1a1NYef4AT8Y-kCxE3xAQwKiJKg-RFE9pMLkVUOkxDQ4L_IeKaZW41mhq8W8HgdWd90CQRAxgq2W8vbe0vXjtLQxtj6ft38audTsI8XB1iGC9uvrQxQCXX5h6jhij8NSBIbyvRxz-JzIal0kaOD58fiHy5tP7YXb69-051Cx3CKTk0uavRoeDrHvclwt4YyytniRbz-AO00V1mKolZupF_xC-8KLwkKy1w_CuOxZwECw4Em3lzTJzt06VKIoDQgZSiNZeRgHMPM39P0ACocmoCHWLbpOnWSHCyXwsjkFGZF7VYbZG55CE7dopTv55Vh9IQXk1YY3UEdu5fn34SXmJ4Nkq_EoHebS1V4yxamKwuSisUwUcDgYUczppiI9ZR4ZXdQff8yYMkqwQsooiCAI3ShYJsus0USBMHaXGW5uH1oaHwzbsWirUz3fVNDflnMTRTJwPXvmhE3xHugxCTdY4dr_b-Vp14xS3VwNe6ROaT41tOAv8pxYe8HAuEjWC1JZ-9e7PvrPGbzyT9H3wvzttME7ZHqvfdCCGe8bWqF-YLyYDXtLnBMbueq8lFviDLpZ6O9egezbOaAzEEyqFhxeqVObRKJamj7gqm_fmOVR9-e3jGTxBYCYnmx-prCJDOqGk0T8r8JJyxr9_NH6k_tzoyUB6hhExQHLaglGyN4u_FERas8oxJ9aXySEFLzgYGfpLpJS1Ozeo9hhqJ1s6lhIjTXFtbvpgNt9dFV7mV43ncZPlvRuP2i0j_qP7uude8EyNqG0UuTlwoIpN9SCTC3d_kmR7yIepB00Wp5AhXFiMxVLFFGHUHNg_o7N1b5aIRIrB6KANl1t34mUx67OT54GijU-KAGHoUHKB9bDqdw7me4sLPx8kkd-GvjS0bIc4XU28aZVMvR2X-FN-whTxNo0uH2t-twPH1iVawV8eTXb0PUvE6nZ0OJ-GA__MJVqx4iGU56cR89qgmY-RKsTxHGPCC0hc6LbZTlv_ukunmrrpqITPrfG31ijXSGjWndABXKnvkPTGraZmRFJNRd3He6z8QNbi2SwVbJT9aeDef107NVtzGme8HsP0OwGLrA6ZYBm7jxYQW0URNR0D-Rd9mFerr9ILHW6S63gGn3O5vy6n_6QWKSAoBGO5s2DIUR8LfdFJtjrTVfM_uu9Jy14Y2Pzy9D6BDBz_FTbUEi-eb4ADeFNDWLNkQau_Wxv9qZ-rPpCTmoerPzG4hfgoPFF-Dadf8BvMFhFExUsdBSd7tG6JB_cYbVrzj-Gp7TfsVRO_Hmr5SpRzphmdPZEOA2JFnfFmi-UEUSJysNA61ejvJvlHDFP4shZKV1tVgicWp30vznxsRLiBnmGqlp6DROFYvQ5cKorqFs7TLCNNWUwEtzxNelyHNXsGQ59lQwfjMZ5JEgVu4QYbyW4oI_tKouLC9p8L5KjDFAO3S2cd1YR9II7wNHciCcwIJQOlOBIP4CLm7cxqTfHPbnOpTOi0KMuBBwgMheTyHWCbTkuOt0Ls8dOEbv7VSJ0dBVexXH-Txwd7oLZCOAe-d5KDmqx72ttD0h2rV1hsBw4kJAUfNii80az5-LquGuW9L6RiT7hMVTR9F6mrlR1PjVT2VGHrzauE8vBo-3_YHgNPV7LJGEmzPqT8j0gK3dRT8Y6wYg5pmm28fSFb8" nonce="60932013f36e901df01313cf012556e6" charset="UTF-8"></script></head>
+
+<body>
+    <div class="wrapper">
+        <form action="register.php" method="post">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Username" required>
+                <box-icon type='solid' name='user'></box-icon>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" required>
+                <box-icon type='solid' name='lock-alt'></box-icon>
+            </div>
+            <button type="submit" class="btn">Register</button>
+            <div class="register-link">
+                <p>Already have an account? <a href="index_login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
