@@ -29,6 +29,13 @@ def home():
     # return render_template('index_edit.html', form=form)
     return render_template('index_2.html', form=form)
 
+@app.route('/main')
+def main():
+    return render_template('index.html')
+
+@app.route('/login')
+def login():
+    return render_template('index_login.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
